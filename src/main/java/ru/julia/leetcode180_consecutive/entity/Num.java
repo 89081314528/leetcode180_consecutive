@@ -7,7 +7,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "numbers")
 public class Num {
-    @Column(name = "id")
+    @Column(name = "number_id")
     @Id
     Long id;
     @Column(name = "number")
